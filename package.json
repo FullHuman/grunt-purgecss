@@ -10,10 +10,14 @@
     "purgecss": "^0.20.0"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "^1.1.0",
+    "eslint": "^4.19.0",
+    "flow-bin": "^0.68.0",
+    "grunt": "~1.0.1",
     "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-nodeunit": "^1.0.0",
-    "grunt": "~1.0.1"
+    "jest": "^22.4.2",
+    "rollup": "^0.57.1"
   },
   "scripts": {
     "test": "grunt test"
