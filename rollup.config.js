@@ -7,15 +7,15 @@ import uglify from "rollup-plugin-uglify"
 export default {
     input: "src/index.js",
     output: [
-        {
-            file: "lib/grunt-purgecss.es.js",
-            format: "es"
-        },
+        // {
+        //     file: "lib/grunt-purgecss.es.js",
+        //     format: "es"
+        // },
         {
             file: "lib/grunt-purgecss.js",
             format: "cjs"
         }
     ],
     plugins: [builtins(), resolve(), flow(), babel(), uglify()],
-    external: []
+    external: ['purgecss']
 }
