@@ -2,9 +2,13 @@ module.exports = grunt => {
 
   grunt.initConfig({
     purgecss: {
-      files: ['./src/app.css'],
       options: {
         content: ['./src/**/*.html']
+      },
+      my_target: {
+        files: {
+          './app.purged.css': './src/app.css'
+        }
       }
     }
   })
