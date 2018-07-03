@@ -7,7 +7,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7710684c644d4f7cb725dc10a2a5953f)](https://www.codacy.com/app/FullHuman/grunt-purgecss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=FullHuman/grunt-purgecss&amp;utm_campaign=Badge_Grade)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![npm](https://img.shields.io/npm/v/grunt-purgecss.svg)](https://www.npmjs.com/package/grunt-purgecss)
-[![license](https://img.shields.io/github/license/fullhuman/grunt-purgecss.svg)]()
+[![license](https://img.shields.io/github/license/fullhuman/grunt-purgecss.svg)]() [![Greenkeeper badge](https://badges.greenkeeper.io/FullHuman/grunt-purgecss.svg)](https://greenkeeper.io/)
 
 > Grunt plugin for purgecss.
 
